@@ -9,6 +9,7 @@ const router = require('koa-router')
 const views = require('koa-views')
 // const koaStatic = require('koa-static')
 const staticCache = require('koa-static-cache')
+// const cors = require('./lib/koa-cors')
 const app = new Koa()
 
 
@@ -19,6 +20,8 @@ const sessionMysqlConfig= {
   database: config.database.DATABASE,
   host: config.database.HOST,
 }
+
+// app.use(cors)
 
 // 配置session中间件
 app.use(session({

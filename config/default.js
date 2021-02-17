@@ -3,11 +3,11 @@ const config = {
   port: 3000,
   // 数据库配置
   database: {
-    DATABASE: 'nodesql',
-    USERNAME: 'root',
+    DATABASE: 'nodeblog',
+    USERNAME: 'pig',
     PASSWORD: '123456',
     PORT: '3306',
-    HOST: 'localhost'
+    HOST: '106.54.109.35'
   }
 }
 
